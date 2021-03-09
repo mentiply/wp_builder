@@ -11,9 +11,9 @@ import 'bloc/categoryBloc/get_category_cubit.dart';
 
 
 class MyApp extends StatelessWidget {
-  final link;
-  final name;
-  final about;
+  final String link;
+  final String name;
+  final String about;
 
   MyApp(this.link, this.name, this.about);
 
